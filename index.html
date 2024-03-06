@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beline</title>
+    <link rel="stylesheet" href="./Ctyle/style.css">
+</head>
+<body>
+    <div class="login_menu">
+        <img class="be_logo" src="./Photo/Group (1).png" alt="">
+        <h1 class="logg">Регистрация</h1>
+        <h1 class="ex">Вход</h1>
+        <div class="form-group">
+            <label for="username">ФИО</label>
+            <input type="text" id="username" name="username">
+          </div>
+          <label class="bb" for="dob">Дата рождения</label><br>
+          <div class="container">
+            <select class="dropdown" id="day">
+                <script>
+                for(var i = 1; i <= 31; i++){
+                    document.write('<option value="' + i + '">' + i + '</option>');
+                }
+                </script>
+                </select>
+                <select class="dropdown" id="month">
+                    <option value="">Месяц</option>
+                </select>
+                <select class="dropdown" id="year">
+                    <option value="">Год</option>
+                </select>
+            </div>
+            <form>
+                <input type="text" id="residence" name="residence" class="input-field" placeholder="Область проживание">
+              </form>
+              <div class="form-num">
+                <label for="number">Номер телефона</label>
+                <input type="text" id="number" name="number" placeholder="0*** *** ***">
+              </div>
+              <a href="./main.html">
+                <button class="button">Далее</button>
+              </a>
+              <div class="containerl">
+                <p class="textl">У вас уже есть аккаунт?</p>
+                <button class="buttonl">Войти</button>
+              </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    max-width: 1440px;
+    max-height: 900px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+}
+.man{
+    position: absolute;
+    left: 660px;
+    top: 60px;
+}
+.man_txt{
+    position: absolute;
+    top: 180px;
+    left: 132px;
+    width: 630px;
+    height: 70px;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 69.6px;
+}
+.man_text{
+    position: absolute;
+    left: 132px;
+    top: 275px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 115.2px;
+}
+.conf{
+    position: absolute;
+    top: 797px;
+    left: 801px;
+}
+.katalog{
+    position: absolute;
+    top: 487px;
+    left: 132px;
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: yellow;
+    color: black;
+    border: none;
+
+    cursor: pointer;
+    height: 72px;
+    width: 247px;
+    border-radius: 16px;
+}
+.project{
+    position: absolute;
+    left: 132px;
+    top: 720px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.8px;
+}
+.project_yel{
+    position: absolute;
+    left: 340px;
+    top: 720px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.8px;
+    color: #FFD400;
+}
+.liric{
+    position: absolute;
+    left: 132px;
+    top: 830px;
+}
+.info{
+    position: absolute;
+    top: 1060px;
+    left: 132px;
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: yellow;
+    color: black;
+    border: none;
+
+    cursor: pointer;
+    height: 72px;
+    width: 247px;
+    border-radius: 16px;
+}
+.steps{
+    position: absolute;
+    left: 358px;
+    top: 1269px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.roll{
+    position: absolute;
+    left: 258px;
+    top: 1400px;
+    width: 924px;
+    height: 63px;
+}
+.strell{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 132px;
+    top: 1655px;
+}
+.strelr{
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 1260px;
+    top:1655px;
+}
+.vid{
+    position: absolute;
+    left: 805px;
+    top: 1535px;
+}
+.tochki{
+    visibility: hidden;
+    display: none;
+
+}
+.fon{
+    position: absolute;
+    left: 212px;
+    top: 1540px;
+    width: 1016px;
+    height: 266px;
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+
+}
+.cyrc{
+    position: absolute;
+    left: 274px;
+    top: 1570px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36.96px;
+}
+.lyrc{
+    position: absolute;
+    left: 274px;
+    top: 1625px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.4px;
+}
+.becurs{
+    position: absolute;
+    left: 132px;
+    top: 1840px;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+
+}
+.chose{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 1920px;
+}
+.choose{
+    width: 276px;
+    height: 320px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    border-radius: 8px;
+
+}
+.posmot{
+    display: none;
+
+    visibility: hidden;
+}
+.choose_mob{
+    display: none;
+
+    visibility: hidden;
+}
+.tochki_v{
+    display: none;
+
+    visibility: hidden;
+}
+.logog{
+    margin-top: 155px;
+    margin-left: 65px;
+}
+.book{
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 24px;
+}
+.txtcurs{
+    position: absolute;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #909090;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+}
+.glav{
+    position: absolute;
+    font-weight: 700;
+    margin-top: 54px;
+    margin-left: 24px;
+    color: #121212;
+    font-size: 20px;
+    line-height: 26.4px;
+
+}
+.vidu{
+    position: absolute;
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-top: 115px;
+    margin-left: 48px;
+}
+.zelt{
+    position: absolute;
+    left: 132px;
+    top: 2359px;
+    width: 1176px;
+    height: 406px;
+    border-radius: 12px;
+    background-color: #FFD400;
+}
+.manz{
+    position: absolute;
+    width: 516px;
+    height: 428px;
+    left: 660px;
+    top: -15px;
+}
+.starting{
+    color: #121212;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 62px;
+}
+.zelttxt{
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.4px
+}
+.white{
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    margin-left: 62px;
+    cursor: pointer;
+    height: 72px;
+    width: 233px;
+    border-radius: 16px;
+}
+.footert{
+    position: absolute;
+    left: 116px;
+    top: 2865px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47.52px;
+}
+.foot_one{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 116px;
+    margin-top: 745px;
+}
+.foot{
+    width: 1176px;
+    height: 68px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    
+}
+.foot_two{
+    width: 1176px;
+    height: 68px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    
+}
+.quest{
+    margin-top: 24px;
+    margin-left: 28px;
+    color: #121212;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+    width: 500px;
+}
+.plus{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 1132px;    
+}
+.bigq{
+    width: 1176px;
+    height: 137px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    
+
+}
+.palk{
+    position: absolute;
+    margin-left: -1125px;
+    margin-top: 68px;
+}
+.minus{
+    margin-top: 30px;
+    margin-left: 1132px;
+}
+.bigt{
+    color: #121212;
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+    margin-left: 28px;
+    margin-top  : 24px;
+}
+.cerbig{
+    position: absolute;
+    color: #909090;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+    margin-left: 28px;
+    margin-top  : 55px;
+}
+.endf{
+    width: 1176px;
+    height: 118px;
+    color:#FFFFFF ;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    margin-top: 24px;
+    margin-left: 116px;
+    border-radius: 12px;
+}
+.vopros{
+    margin-top: 27px;
+    margin-left: 28px;
+}
+.vopr{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #121212;
+    width: 540px;
+    margin-top: -70px;
+    margin-left: 130px;
+}
+.voprs{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+    color: #121212;
+    width: 540px;
+    margin-top: -20px;
+    margin-left: 130px;
+}
+.footerbutt{
+    position: absolute;
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #FFD400;
+    color: black;
+    border: none;
+    margin-left: 920px;
+    margin-top: -90px;
+    cursor: pointer;
+    height: 56px;
+    width: 220px;
+    border-radius: 8px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 155px;
+    width: 1346px;
+    margin-top: 120px;
+    margin-left: -10px;
+}
+.social-icons{
+    width: 300px;
+
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px  ;
+    margin: 0 10px;
+}
+.footglav{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+}
+.footother{
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    width: 540px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-family:'Fira Sans' ;
+        max-width: 360px;
+        max-height: 3981px;
+    }  
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: white;
+        font-size: 24px;
+    }
+    .logo p {
+        display: block;
+        visibility: hidden;
+    }
+    .user{
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    .user_pic{
+        width: 32px;
+        height: 32px;
+    }
+    .logo_img{
+        width: 32px;
+        height: 32px;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+    .burger{
+        display: block;
+
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    .man{
+        position: absolute;
+        width: 360px;
+        height: 250px;
+        left: 0px;
+        top: 110px;
+    }
+    .man_txt{
+        position: absolute;
+        top: 365px;
+        left: 30px;
+        width: 298px;
+        height: 70px;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 33.6px;
+    }
+    .man_text{
+        width: 298px;
+        position: absolute;
+        left: 25px;
+        top: 404px;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 67.2px;
+    }
+    .katalog{
+        position: absolute;
+        top: 537px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 72px;
+        width: 328px;
+        border-radius: 16px;
+    }
+    .conf{
+        position: absolute;
+        top: 680px;
+        left: 18px;
+        width: 328px;
+        height: 168px;
+    }
+    .project{
+        position: absolute;
+        left: 13px;
+        top: 835px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+    }
+    .project_yel{
+        position: absolute;
+        left: 137px;
+        top: 835px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+        color: #FFD400;
+    }
+    .liric{
+        position: absolute;
+        left: 13px;
+        top: 880px;
+    }
+    .info{
+        position: absolute;
+        top: 1234px;
+        left: 13px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+        cursor: pointer;
+        height: 72px;
+        width: 328px;
+        border-radius: 16px;
+    }
+    .roll{
+        visibility: hidden;
+    }
+    .strell{
+        visibility: hidden;
+    }
+    .strelr{
+        visibility: hidden;
+    }
+    .steps{
+        position: absolute;
+        left: 26px;
+        top: 1347px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+        width: 328px;
+    }
+    .fon{
+        position: absolute;
+        left: 45px;
+        top: 1490px;
+        width: 276px;
+        height: 452px;
+        color: #FFFFFF;
+        border-radius: 12px;
+        box-shadow: 16px 10px 16px 16px #0000000F;
+    }
+    .cyrc{
+        position: absolute;
+        left: 60px;
+        top: 1490px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26.4px;
+        color: #121212;
+        width: 144px;
+    }
+    .lyrc{
+        position: absolute;
+        left: 60px;
+        top: 1537px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23.04px;
+        width: 244px;
+        height: 161px;
+    }
+    .vid{
+        position: absolute;
+        left: 22px;
+        top: 1711px;
+        width: 306px;
+        height: 236px;
+    }
+    .tochki{
+        position: absolute;
+        visibility: visible;
+        display: block;
+
+        width: 60px;
+        height: 12px;
+        top: 1963px;
+        left: 147px;
+    }
+    .becurs{
+        position: absolute;
+        left: 20px;
+        top: 2000px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.68px;
+    letter-spacing: 0em;
+    width: 328px;
+    
+    }
+    .choose{
+        visibility: hidden;
+        display: block;
+
+    }
+    .choose_mob{
+        position: absolute;
+        visibility: visible;
+        display: block;
+
+        width: 276px;
+    height: 320px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-top: 155px;
+    }
+    .posmot{
+        position: absolute;
+        visibility: visible;
+        display: block;
+
+        color: #0094FF;
+        top: 2047px;
+        left: 20px;
+    }
+    .tochki_v{
+        position: absolute;
+        left: 147px;
+        top: 2485px;
+        visibility: visible;
+        display: block;
+
+        width: 60px;
+        height: 12px;
+    }
+    .zelt{
+        position: absolute;
+        left: 11px;
+        top: 2569px;
+        width: 328px;
+        height: 681px;
+        border-radius: 12px;
+        background-color: #FFD400;
+    }
+    .manz{
+        position: absolute;
+        width: 328px;
+        height: 250px;
+        left: -10px;
+        top: 15px;
+    }
+    .starting{
+        color: #121212;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+        margin-left: 30px;
+        margin-top: 270px;
+    }
+    .zelttxt{
+        margin-top: -26px;
+        margin-left: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23.04px
+    }
+    .white{
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: #FFFFFF;
+        color: black;
+        border: none;
+        margin-left: 35px;
+        margin-top: -12px;
+        cursor: pointer;
+        height: 72px;
+        width: 233px;
+        border-radius: 16px;
+    }
+    .foot_two{
+        visibility: hidden;
+        display: none;
+    }
+    .footert{
+        position: absolute;
+        left: 20px;
+        top: 3281px;
+        color: #121212;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26.4px;
+        width: 261px;
+    }
+    .foot{
+        width: 325px;
+        height: 68px;
+        border-radius: 12px;
+        color: #FFFFFF;
+        box-shadow: 16px 10px 16px 16px #0000000F;
+        
+    }
+    .foot_one{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-left: 3px;
+        margin-top: 1073px;
+    }
+    .plus{
+        position: absolute;
+        margin-top: -35px;
+        margin-left: 294px ;
+    }
+    .minus{
+        margin-top: 30px;
+        margin-left: 291px;
+    }
+    .bigt{
+        color: #121212;
+        position: absolute;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23.04px;
+        margin-left: 28px;
+        margin-top  : 12px;
+    }
+    .bigq{
+        width: 325px;
+    }
+    .palk{
+        position: absolute;
+        margin-left: -294px;
+        margin-top: 68px;
+        width: 288px;
+    }
+    .cerbig{
+        position: absolute;
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+        margin-left: 28px;
+        margin-top  : 40px;
+        width: 288px;
+    }
+    .endf{
+        width: 328px;
+        height: 254px;
+        color:#FFFFFF ;
+        box-shadow: 16px 10px 16px 16px #0000000F;
+        margin-top: 24px;
+        margin-left: 2px;
+    }
+    .footerbutt{
+        position: absolute;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: #FFD400;
+        color: black;
+        border: none;
+        margin-left: 52px;
+        margin-top: 188px;
+        cursor: pointer;
+        height: 56px;
+        width: 220px;
+        border-radius: 8px;
+    }
+    .vopr{
+        position: absolute;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.6px;
+        color: #121212;
+        width: 540px;
+        margin-top: 101px;
+        margin-left: 24px;
+    }
+    .voprs{
+        position: absolute;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #121212;
+        width: 296px;
+        margin-top: 136px;
+        margin-left: 29px;
+    }
+    .vopros{
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 127px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        gap: 28px;
+        width: 323px;
+        height: 220px;
+        margin-top: 120px;
+        margin-left: -10px;
+    }
+    .footother{
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        width: 324px;
+    }
+}

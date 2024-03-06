@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    max-width: 1440px;
+    max-height: 900px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+    margin-left: 60px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 155px;
+    width: 1346px;
+    margin-top: 200px;
+    margin-left: -10px;
+}
+.social-icons{
+    width: 300px;
+
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px  ;
+    margin: 0 10px;
+}
+.footglav{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+}
+.listi{
+    visibility: hidden;
+    display: none;
+}
+.vibor{
+    visibility: hidden;
+    display: none;
+}
+.footother{
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    width: 540px;
+}
+.it{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #121212;
+    width: 645px;
+    position: absolute;
+    left: 132px;
+    top: 128px;
+}
+.glav{
+    display: flex;
+}
+.conte{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 132px;
+    margin-top: 218px;
+    gap: 24px;
+}
+.kusk{
+    flex-direction: column;
+}
+.foto{
+    width: 376px;
+    height: 156px;
+}
+.info_foto{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #121212;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-family:'Fira Sans' ;
+        max-width: 360px;
+        max-height: 3981px;
+    }  
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: white;
+        font-size: 24px;
+    }
+    .katalog{
+        visibility: visible;
+        position: absolute;
+        top: 537px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 72px;
+        width: 328px;
+        border-radius: 16px;
+    }
+    .logo p {
+        display: none;
+        visibility: hidden;
+    }
+    .user{
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    .user_pic{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        margin-left: 50px;
+    }
+    .logo_img{
+        width: 32px;
+        height: 32px;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+    .burger{
+        display: block;
+
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        gap: 28px;
+        width: 322px;
+        height: 228px;
+        margin-top: 120px;
+        margin-left: -10px;
+    }
+    .footother{
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        width: 324px;
+    }
+    .it{
+        width: 328px;
+        font-size: 24px;
+        line-height: 31.68px;
+        left: 16px;
+    }
+    .foto{
+        width: 150px;
+            height: 108px;
+        border-radius: 6px;
+    }
+    .info_foto{
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 14px;
+    }
+    .conte{
+        margin-left: 11px;
+    }
+}

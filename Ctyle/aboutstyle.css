@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    max-width: 1440px;
+    max-height: 900px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+    margin-left: 60px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+.about{
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+    color: #121212;
+    width: 407px;
+    position: absolute;
+    left: 132px;
+    top: 222px;
+}
+.man{
+    position: absolute;
+    left: 655px;
+    top: 60px;
+}
+.project{
+    position: absolute;
+    left: 453px;
+    top: 720px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57.6px;
+}
+.project_yel{
+    position: absolute;
+    left: 660px;
+    top: 720px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57.6px;
+    color: #FFD400;
+}
+.aboutpro{
+    position: absolute;
+    left: 132px;
+    top: 850px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.8px;
+}
+.target{
+    color: #121212;
+    line-height: 52.8px;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 585.5px;
+    top: 1242px;
+}
+.tarpro{
+    width: 1176px;
+    height: 340px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    margin-left: 132px;
+    margin-top: 1361px;
+}
+.katalog{
+    visibility: hidden;
+}
+.txtpro{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+    margin-left: 55px;
+    padding: 3px;
+}
+.tochk{
+    width: 10px;
+    height: 10px;
+}
+.tochtxt{
+    color: #121212;
+}
+.partner{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #121212;
+    position: absolute;
+    left: 578px;
+    top: 1850px;
+}
+.imgpart{
+    position: absolute;
+    width: 568px;
+    height: 140px;
+    top: 2030px;
+    left: 436px;
+}
+.zelt{
+    position: absolute;
+    left: 132px;
+    top: 2359px;
+    width: 1176px;
+    height: 406px;
+    border-radius: 12px;
+    background-color: #FFD400;
+}
+.manz{
+    position: absolute;
+    width: 516px;
+    height: 428px;
+    left: 660px;
+    top: -15px;
+}
+.starting{
+    color: #121212;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 62px;
+}
+.zelttxt{
+    margin-left: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.4px
+}
+.white{
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    margin-left: 62px;
+    cursor: pointer;
+    height: 72px;
+    width: 233px;
+    border-radius: 16px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 155px;
+    width: 1346px;
+    margin-top: 1200px;
+    margin-left: -10px;
+}
+.social-icons{
+    width: 300px;
+
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px  ;
+    margin: 0 10px;
+}
+.footglav{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+}
+.footother{
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    width: 540px;
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-family:'Fira Sans' ;
+        max-width: 360px;
+        max-height: 3981px;
+    }  
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: white;
+        font-size: 24px;
+    }
+    .katalog{
+        visibility: visible;
+        position: absolute;
+        top: 537px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 72px;
+        width: 328px;
+        border-radius: 16px;
+    }
+    .logo p {
+        display: none;
+        visibility: hidden;
+    }
+    .user{
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    .user_pic{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        margin-left: 50px;
+    }
+    .logo_img{
+        width: 32px;
+        height: 32px;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+    .burger{
+        display: block;
+
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    .man{
+        position: absolute;
+        width: 360px;
+        height: 250px;
+        left: 0px;
+        top: 110px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        gap: 28px;
+        width: 322px;
+        height: 228px;
+        margin-top: 1200px;
+        margin-left: -10px;
+    }
+    .footother{
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        width: 324px;
+    }
+    .zelt{
+        position: absolute;
+        left: 18px;
+        top: 2360px;
+        width: 328px;
+        height: 681px;
+        border-radius: 12px;
+        background-color: #FFD400;
+    }
+    .manz{
+        position: absolute;
+        width: 328px;
+        height: 250px;
+        left: -10px;
+        top: 15px;
+    }
+    .starting{
+        color: #121212;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+        margin-left: 30px;
+        margin-top: 270px;
+    }
+    .zelttxt{
+        margin-top: -26px;
+        margin-left: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23.04px
+    }
+    .white{
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: #FFFFFF;
+        color: black;
+        border: none;
+        margin-left: 35px;
+        margin-top: -12px;
+        cursor: pointer;
+        height: 72px;
+        width: 233px;
+        border-radius: 16px;
+    }
+    .about{
+        width: 287px;
+        font-size: 56px;
+        line-height: 67.2px;
+        left: 40px;
+        top: 350px;
+    }
+    .project{
+        position: absolute;
+        left: 16px;
+        top: 650px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+    }
+    .project_yel{
+        position: absolute;
+        left: 137px;
+        top: 650px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.68px;
+        color: #FFD400;
+    }
+    .aboutpro{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23.04px;
+            width: 328px;
+            height: 575px;
+            left: 16px;
+            top: 710px;
+    }
+    .target{
+        width: 161px;
+        left: 99.5px;
+        top: 1400px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .tarpro{
+        width: 328px;
+        height: 485px;
+        border-radius: 12px;
+        margin-left: 10px;
+        margin-top: 1440px;
+    }
+    .tochtxt{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .txtpro{
+        margin-left: 12px;
+    }
+    .partner{
+        width: 182px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        left: 89.55px;
+        top: 2050px;
+    }
+    .imgpart{
+        width: 226px;
+        height: 62px;
+        left: 67px;
+        top: 2170px;
+    }
+}

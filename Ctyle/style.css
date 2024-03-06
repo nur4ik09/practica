@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    background-image: url(../Photo/abstract_1@4x\ 3.png);
+}
+.login_menu{
+    display: flex;
+    width: 528px;
+    height: 725px;
+    top: 87px
+}
+.be_logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 361px;
+    top: 87px;
+}
+.logg{
+    position: absolute;
+    flex-direction: row;
+    border-bottom: 5px solid #FFD400; /* Цвет и стиль подчеркивания */
+    left: 153px;
+    top: 200px;
+    font-family:'Fira Sans', sans-serif;
+}
+.ex{
+    position: absolute;
+    color: #909090;
+    font-size: 22px;
+    flex-direction: row;
+    left: 465px;
+    top: 215px;
+    font-family:'Fira Sans';
+}
+.form-group {
+    position: absolute;
+    left: 70px;
+    top: 320px;
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 527px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 1.5; 
+  }
+  .dropdown {
+    left: 132px;
+    width: 136px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 470px;
+    margin-left : 60px;
+}
+.container {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.bb{
+    position: absolute;
+    left: 70px;
+    top: 435px;
+}
+.input-field {
+    position: absolute;
+    left: 67px;
+    top: 552px;
+    width: 527px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  .form-num {
+    position: absolute;
+    left: 67px;
+    top: 625px;
+    margin-bottom: 15px;
+  }
+  .button {
+    background-color: yellow;
+    height: 56px;
+    width: 527px;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 700px -535px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 210px;
+  }
+  a.ccil{
+    text-decoration: none;
+  }
+  .containerl{
+    visibility: hidden;
+  }
+  @media screen and (max-width: 360px) {
+    body{
+      height: 720px;
+      max-width: 360px;
+      max-height: 720px;
+    }
+    .login_menu{
+      width: 350px;
+      height: 725px;
+      top: 87px
+  }
+    .ex{
+      display: none;
+    }
+    .be_logo{
+      width: 52px;
+      height: 52px;
+      left: 150px;
+      top: 53px;
+    }
+    .logg{
+      border-bottom: 0px;
+      left: 85px;
+      top: 125px;
+    }
+    .bb{
+      position: absolute;
+      left: 25px;
+      top: 325px;
+    }
+    .form-group {
+      position: absolute;
+      left: 23px;
+      top: 225px;
+      margin-bottom: 15px;
+    }
+    input, textarea {
+      width: 328px;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      line-height: 1.5; 
+    }
+    .dropdown {
+      left: 132px;
+      width: 99px;
+      height: 36px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 350px;
+      margin-left : 15px;
+  }
+  .input-field {
+    position: absolute;
+    left: 20px;
+    top: 420px;
+    width: 330px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  .form-num {
+    position: absolute;
+    left: 20px;
+    top: 480px;
+    margin-bottom: 15px;
+  }
+  .button {
+    background-color: yellow;
+    height: 56px;
+    width: 320px;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 555px -330px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px  140px;
+  }
+  .containerl {
+    visibility: visible;
+    font-family: Arial, sans-serif;
+  }
+  
+  .textl {
+    position: absolute;
+    left: 88px;
+    top: 640px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .buttonl {
+    position: absolute;
+    left: 145px;
+    top: 695px;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  }

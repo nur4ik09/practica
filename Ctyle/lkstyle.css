@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    max-width: 1440px;
+    max-height: 900px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+    margin-left: 60px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 155px;
+    width: 1346px;
+    margin-top: 700px;
+    margin-left: -10px;
+}
+.social-icons{
+    width: 300px;
+
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px  ;
+    margin: 0 10px;
+}
+.footglav{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+}
+.listi{
+    visibility: hidden;
+    display: none;
+}
+.footother{
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    width: 540px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+.prof{
+    position: absolute;
+    width: 280px;
+    height: 391px;
+    top: 128px;
+    left: 132px;
+    border-radius: 8px;
+    color: #E8E8E8;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+}
+.ppf{
+    width: 120px;
+    height: 120px;
+    margin-top: 17px;
+    margin-left: 76px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#121212;
+    margin-left: 48px;
+}
+.harac{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1px;
+    gap: 1px;
+}
+.opisa{
+    column-gap: 1px;
+    gap: 1px;
+    height: 30px;
+    margin-left: 34px;
+}
+.stats{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#909090;
+    height: 20px;
+    margin-top: 1px;
+}
+.katalog{
+    position: absolute;
+    top: 330px;
+    left: 47px;
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color:#FFFFFF;
+    color: black;
+    border: #E8E8E8;
+    border-color: #E8E8E8;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    cursor: pointer;
+    height: 44px;
+    width: 180px;
+    border-radius: 8px;
+}
+.out{
+    position: absolute;
+    left: 189px;
+    top: 342px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.statis{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 494px;
+    gap: 24px;
+}
+.box{
+    width: 236px;
+    height: 64px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+}
+.kol{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#909090;
+    margin-left: 20px;
+}
+.ball{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color:#121212;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+.result{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#121212;
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    top: 234px;
+    left: 507px;
+}
+.res{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    width: 745px;
+    height: 25px;
+    border-radius: 2px;
+    margin-top: 100px;
+    margin-left: 494px;
+    gap: 284px;
+}
+.res_q{
+    display: flex;
+    flex-direction: row;
+    width: 745px;
+    height: 25px;
+    border-radius: 2px;
+    margin-top: -65px;
+    margin-left: 494px;
+    gap: 190px;
+}
+.res_q p{
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+color: #121212;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.res p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color:#909090;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.resul{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.palka{
+    position: absolute;
+    left: 504px;
+    top: 430px;
+    width: 745px;
+}
+.ccilk{
+    text-decoration: none;
+    color: #0094FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    position: absolute;
+    left: 1092px;
+    top: 523px;
+}
+.mycur{
+    position: absolute;
+    left: 135px;
+    top: 550px;
+    color:#121212;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.mains{
+    display: flex;
+    flex-direction: row;
+    margin-top: 225px;
+    margin-left: 115px;
+    gap: 24px;
+}
+.boxs{
+    flex-direction: column;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    width: 576px;
+    height: 256px;
+    border-radius: 12px;
+}
+.naprav{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    color:#909090;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+.theme{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#121212;
+    margin-left: 24px;
+    margin-top: -10px;
+}
+.poloska{
+    width: 238px;
+    height: 8px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+.krug{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -238px;
+    margin-top: 50px;
+}
+.dlit{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:#909090;
+    margin-left: 75px;
+    margin-top: 38px;
+}
+.krugi{
+    position: absolute;
+    left: 488px;
+    top: 764px;
+    width: 190px;
+    height: 160px;
+}
+.krugi_q{
+    position: absolute;
+    left: 1060px;
+    top: 764px;
+    width: 190px;
+    height: 160px;
+}
+.motivas{
+    position: absolute;
+    left: 122px;
+    top: 1065px;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+color:#121212;
+}
+.moti{
+    position: absolute;
+    left: 122px;
+    top: 1174px;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+color:#121212;
+width: 1135px;
+}
+.kataloge{
+    position: absolute;
+    top: 1330px;
+    left: 116px;
+    font-family:'Fira Sans' ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color:#FFD400;
+    color: black;
+    border: #E8E8E8;
+    border-color: #E8E8E8;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    cursor: pointer;
+    height: 56px;
+    width: 245px;
+    border-radius: 12px;
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-family:'Fira Sans' ;
+        max-width: 360px;
+        max-height: 3981px;
+    }  
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: white;
+        font-size: 24px;
+    }
+    .katalog{
+        visibility: visible;
+        position: absolute;
+        top: 258px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 44px;
+        width: 296px;
+        border-radius: 8px;
+    }
+    .logo p {
+        display: none;
+        visibility: hidden;
+    }
+    .user{
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    .user_pic{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        margin-left: 50px;
+    }
+    .logo_img{
+        width: 32px;
+        height: 32px;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+    .burger{
+        display: block;
+
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        gap: 28px;
+        width: 322px;
+        height: 228px;
+        margin-top: 1155px;
+        margin-left: -10px;
+    }
+    .footother{
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        width: 324px;
+    }
+    .katalog{
+        visibility: visible;
+        position: absolute;
+        top: 258px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: #E8E8E8;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 44px;
+        width: 296px;
+        border-radius: 8px;
+    }
+}

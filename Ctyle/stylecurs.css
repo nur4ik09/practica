@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family:'Fira Sans' ;
+    max-width: 1440px;
+    max-height: 900px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    height: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+}
+.menu {
+    display: flex;
+    gap: 25px;
+
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo_img{
+    width: 48px;
+    height: 48px;
+    margin-left: 60px;
+}
+.burger{
+    display: none;
+    visibility: hidden;
+}
+.napr{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #121212;
+    position: absolute;
+    left: 132px;
+    top: 128px;
+}
+.search-bar input[type=text] {
+    margin-top: 208px;
+    margin-left: 125px;
+    border: none;
+    padding-left: 50px;
+    width: 1100px;
+    height: 56px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+}
+.loopa{
+    position: absolute;
+    left: 148px;
+    top: 273px;
+    width: 24px;
+    height: 24px;
+}
+.chose{
+    display: flex;
+    justify-content: baseline;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.chose_t{
+    display: flex;
+    justify-content: baseline;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.chose_tt{
+    display: flex;
+    justify-content: baseline;
+    gap: 24px;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.choose{
+    width: 276px;
+    height: 320px;
+    color: #FFFFFF;
+    box-shadow: 16px 10px 16px 16px #0000000F;
+    border-radius: 8px;
+
+}
+.posmot{
+    display: none;
+
+    visibility: hidden;
+}
+.choose_mob{
+    display: none;
+
+    visibility: hidden;
+}
+.tochki_v{
+    display: none;
+
+    visibility: hidden;
+}
+.logog{
+    margin-top: 155px;
+    margin-left: 65px;
+}
+.book{
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 24px;
+}
+.txtcurs{
+    position: absolute;
+
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #909090;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.04px;
+}
+.glav{
+    position: absolute;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 24px;
+    color: #121212;
+    font-size: 20px;
+    line-height: 26.4px;
+
+}
+.vidu{
+    position: absolute;
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-top: 115px;
+    margin-left: 48px;
+}
+.vidu_o{
+    position: absolute;
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 228px;
+}
+.rega{
+    position: absolute;
+    font-weight: 400;
+    color: blue;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-top: 280px;
+    margin-left: -150px;
+    width: 228px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    gap: 155px;
+    width: 1346px;
+    margin-top: 120px;
+    margin-left: -10px;
+}
+.social-icons{
+    width: 300px;
+
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px  ;
+    margin: 0 10px;
+}
+.footglav{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+}
+.listi{
+    visibility: hidden;
+    display: none;
+}
+.vibor{
+    visibility: hidden;
+    display: none;
+}
+.footother{
+    color: #909090;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.16px;
+    width: 540px;
+}
+@media screen and (max-width: 360px) {
+    body{
+        font-family:'Fira Sans' ;
+        max-width: 360px;
+        max-height: 3981px;
+    }  
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: white;
+        font-size: 24px;
+    }
+    .katalog{
+        visibility: visible;
+        position: absolute;
+        top: 537px;
+        left: 17px;
+        font-family:'Fira Sans' ;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        background-color: yellow;
+        color: black;
+        border: none;
+    
+        cursor: pointer;
+        height: 72px;
+        width: 328px;
+        border-radius: 16px;
+    }
+    .logo p {
+        display: none;
+        visibility: hidden;
+    }
+    .user{
+        margin-left: -160px;
+        margin-top: 10px;
+    }
+    .user_pic{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        margin-left: 50px;
+    }
+    .logo_img{
+        width: 32px;
+        height: 32px;
+        margin-top: 14px;
+        margin-left: 80px;
+    }
+    .burger{
+        display: block;
+
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-left: 16px;
+    }
+    .napr{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        left: 16px;
+        top: 105px;
+    }
+    .search-bar input[type=text] {
+        margin-top: 160px;
+        margin-left: 8px;
+        border: none;
+        padding-left: 50px;
+        width: 275px;
+        height: 56px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .loopa{
+        position: absolute;
+        left: 29px;
+        top: 225px;
+        width: 24px;
+        height: 24px;
+    }
+    .chose_t{
+        display: none;
+        visibility: hidden;
+    }
+    .chose_tt{
+        display: none;
+        visibility: hidden;
+    }
+    .chose{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+    .choose{
+        width: 328px;
+        height: 283px;
+        color: #FFFFFF;
+        box-shadow: 16px 10px 16px 16px #0000000F;
+        border-radius: 8px;
+    
+    }
+    .glav{
+        position: absolute;
+        font-weight: 700;
+        margin-top: 25px;
+        margin-left: 24px;
+        color: #121212;
+        font-size: 20px;
+        line-height: 26.4px;
+    }
+    .book{
+        position: absolute;
+        margin-top: 60PX;
+        margin-left: 24px;
+    }
+    .vidu{
+        position: absolute;
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        margin-top: 60PX;
+        margin-left: 48px;
+    }
+    .logog{
+        margin-top: 105px;
+        margin-left: 65px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        gap: 28px;
+        width: 322px;
+        height: 228px;
+        margin-top: 120px;
+        margin-left: -10px;
+    }
+    .footother{
+        color: #909090;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20.16px;
+        width: 324px;
+    }
+    .listi{
+        display: block;
+        visibility: visible;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        color: #909090;
+        position: absolute;
+        top: 1580px;
+    }
+    .vibor{
+        display: block;
+        visibility: visible;
+        width: 114px;
+        height: 24px;
+        position: absolute;
+        left: 230px;
+        top: 1580px;
+    }
+}

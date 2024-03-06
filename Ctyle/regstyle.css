@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    font-family:'Fira Sans' ;
+    background-image: url(../Photo/abstract_1@4x\ 3.png);
+    max-height: 900px;
+}
+.bel_logo{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 361px;
+    top: 87px;
+}
+.logg{
+    position: absolute;
+    flex-direction: row;
+    border-bottom: 5px solid #FFD400; /* Цвет и стиль подчеркивания */
+    left: 300px;
+    top: 200px;
+    font-family:'Fira Sans', sans-serif;
+}
+.button {
+    position: absolute;
+    left: 155px;
+    top: 410px;
+    background-color: yellow;
+    height: 56px;
+    width: 527px;
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 2/10px;
+  }
+  .input-field {
+    position: absolute;
+    left: 155px;
+    top: 340px;
+    width: 527px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  @media screen and (max-width: 360px) {
+    body{
+      max-width: 350px;
+      max-height: 700px;
+    }
+    .bel_logo{
+        width: 52px;
+        height: 52px;
+        left: 150px;
+        top: 53px;
+      }
+      .logg{
+        border-bottom: 0px;
+        left: 85px;
+        top: 125px;
+      }
+      .button {
+        background-color: yellow;
+        height: 56px;
+        width: 320px;
+        border: none;
+        color: black;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: -110px -145px;
+        cursor: pointer;
+        border-radius: 12px;
+        padding: 10px  140px;
+      }
+      .input-field {
+        position: absolute;
+        left: 15px;
+        top: 220px;
+        width: 310px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+}
